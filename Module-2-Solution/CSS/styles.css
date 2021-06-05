@@ -1,0 +1,44 @@
+
+.container {
+	width: 90%;
+
+}
+
+.box {
+	box-sizing: border-box;
+	background-color: grey;
+	border-style: solid;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+h2{
+	text-align: center;
+}
+
+.h_box {
+	background-color: red;
+	border-style: solid;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+@media (min-width: 992px){
+	.box {
+		float: left;
+
+	}
+}
+
+@media (min-width: 768px) and (max-width:991px){
+	h1 {
+		color: green;
+	}
+}
+@media (max-width: 767px){
+	h1 {
+		color: black;
+	}
+}
